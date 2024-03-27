@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  height: 80vh;
+  background-image: url(../../assets/img/hero-bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.5)),
+    url(../../assets/img/hero-bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask: url(../../assets/img/mask.png);
+  -webkit-mask-size: 100%;
+  -webkit-mask-position-y: bottom;
+  // -webkit-mask-position: center;
+  opacity: 0.9;
+  z-index: 1;
+  filter: blur(8px);
+  -webkit-filter: blur(15px);
+}
+
+img#logo-hero {
+  z-index: 15;
+  transition: .7s ease-out;
+}

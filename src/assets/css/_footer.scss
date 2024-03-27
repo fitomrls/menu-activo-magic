@@ -1,0 +1,45 @@
+section.map{
+    padding-top: 7em;
+}
+
+footer{
+    padding: 2em 0;
+    background-color: $chocolate;
+    align-items: center;
+    justify-content: space-around;
+    color: $secondary;
+    .central{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img#logo-footer{
+        width: 80px;
+        height: auto;
+    }
+
+    .time{
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 2em;
+    a{
+        color: #44f9c3;
+        display: flex;
+        text-decoration: none;
+    }
+    .menu-activo{
+        align-items: center;
+        gap: 5px;
+        border: solid 2px #44f9c3;
+        border-radius: 50px;
+        padding: 5px 15px;
+        font-size: .9em;
+    }
+}

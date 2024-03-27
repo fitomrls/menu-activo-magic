@@ -1,0 +1,27 @@
+section.catalog {
+//   height: 100vh;
+  align-items: center;
+  
+  .title{
+    align-items: center;
+    gap: 5px;
+  }
+
+  h1 {
+    font-size: 3em;
+    color: $primary;
+    text-transform: uppercase;
+    font-family: "Inika", serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+
+  .content {
+    flex-wrap: wrap;
+    margin-top: 5em;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3em;
+  }
+}

@@ -1,0 +1,58 @@
+// scroll
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $primary #dfe9eb;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 7px;
+  background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: $primary;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: $grey;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: $secondary;
+}
+
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  background-image: url(../img/main-bg3.jpg);
+  background-repeat: repeat-x;
+  // opacity: .8;
+  // filter: blur(6px);
+  // -webkit-filter: blur(6px);
+}

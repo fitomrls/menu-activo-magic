@@ -1,0 +1,105 @@
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .imgs{
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img.product-img{
+            border-radius: 30px;
+            max-width: 80vh;
+        }
+    }
+    .descrip{
+        flex: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+        height: 100%;
+        padding: 2em;
+        font-family: "Inika", serif;
+        font-weight: 400;
+        font-style: normal;
+
+        .action{
+            background-color:$secondary;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            color: #fff;
+
+            .price{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding-left: 1em;
+                font-size: 1.8em;
+                flex: 50%;
+                width: 100%;
+                span{
+                    font-size: .8em;
+                }
+
+                .amount-item{
+                    width: 60px;
+                    padding: 5px;
+                    color: $dark;
+                }
+            }
+        }
+
+        .add{
+            background-color: $primary;
+            width: 190px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 10px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;  
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .add:hover{
+            background-color: #ccc;
+            color: $dark;
+        }
+    }
+
+    .side-cart{
+        cursor: pointer;
+        position: absolute;
+        right: -32px;
+        top: 40%;
+        background-color: $primary;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 10px;
+        padding-left: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+
+        .cart-action-side{
+            position: relative;
+
+            span{
+                position: absolute;
+                background-color: crimson;
+                top: -13px;
+                left: -12px;
+                border-radius: 50%;
+                padding: 5px 10px;
+                color: #fff;
+            }
+        }
+    }
+}
