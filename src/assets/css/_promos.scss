@@ -5,14 +5,14 @@ section.promos{
     align-items: center;
     margin-bottom: 5em;
 
-    background: #171616b0;
-    background: linear-gradient(180deg, $chocolate 0%, #1a18162b 38%, #ffffff18 100%);
+    /* background: $primary;
+    background: linear-gradient(180deg, $primary 0%, #ed53009d 38%, #ed530028 100%); */
 
     h2{
         font-size: 2em;
         color: $secondary;
         margin-top: 1em;
-        background-color: $chocolate;
+        background-color: #fff;
         padding: 0 10px;
         z-index: 10;
     }

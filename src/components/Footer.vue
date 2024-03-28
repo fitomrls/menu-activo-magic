@@ -25,8 +25,7 @@ onMounted(() => {
     <div class="central flex">
         <div class="social">
             <a v-for="social in info.socials" :href="social.link" target="_blank" :key="social.id">
-                <!-- <img src="@/assets/img/facebook.svg" alt="location icon" width="45" height="45"> -->
-                <span v-html="social.icon"></span>
+                <img src="@/assets/img/facebook.svg" alt="location icon" width="45" height="45">
             </a>
             <a :href="`https://wa.me/+591${info.phone}`" target="_blank">
                 <img src="@/assets/img/whatsapp.svg" alt="location icon" width="45" height="45">

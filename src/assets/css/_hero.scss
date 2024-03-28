@@ -1,9 +1,10 @@
 header {
   position: relative;
   height: 80vh;
-  background-image: url(../../assets/img/hero-bg-3.jpg);
+  background-image: url(../../assets/img/hero-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  // background-position-y: -200px;
   z-index: -1;
 }
 
@@ -14,9 +15,13 @@ header {
   height: 80vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.5)),
-    url(../../assets/img/hero-bg-3.jpg);
+    url(../../assets/img/hero-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  // background-position: top;
+  // background-position-y: -200px;
+
+
   -webkit-mask: url(../../assets/img/mask.png);
   -webkit-mask-size: 100%;
   -webkit-mask-position-y: bottom;

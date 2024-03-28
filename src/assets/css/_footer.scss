@@ -4,10 +4,10 @@ section.map{
 
 footer{
     padding: 2em 0;
-    background-color: $chocolate;
+    background-color: $primary;
     align-items: center;
     justify-content: space-around;
-    color: $secondary;
+    color: #fff;
     .central{
         flex-direction: column;
         align-items: center;
@@ -21,6 +21,9 @@ footer{
     .time{
         align-items: center;
         gap: 30px;
+    }
+    .address p{
+        width: 70%;
     }
 }
 
