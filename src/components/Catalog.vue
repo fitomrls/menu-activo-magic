@@ -13,7 +13,11 @@ const { catSelected, productsByCat, setProduct } = useMenu()
         </div>
         <div class="content flex">
             <div class="box-item" v-for="promo in productsByCat" :key="promo.id">
-                <img class="box-img" :src="promo.pictures[0].url" :alt="promo.title">
+                <template v-if="promo.pictures.length>0">
+                    <img class="box-img" :src="promo.pictures[0].url" :alt="promo.title">
+                </template>
+                <img v-else src="@/assets/img/img_default.jpg" alt="img-default">
+
             <div class="item-info">
                 <div class="name" v-if="promo.title.length>24">{{ promo.title.slice(0, 24) }}</div>
                 <div class="name" v-else>{{ promo.title }}</div>

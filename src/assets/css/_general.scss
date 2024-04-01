@@ -50,9 +50,11 @@
 }
 
 main{
-  /* background-image: url(../img/main-bg3.jpg);
-  background-repeat: repeat-x; */
-  // opacity: .8;
+  background-color: $secondary;
+  // background-image: url(../img/pendle.png);
+  // background-blend-mode: hard-light;
+  // background-repeat: repeat-x;
+  // opacity: .2;
   // filter: blur(6px);
   // -webkit-filter: blur(6px);
 }

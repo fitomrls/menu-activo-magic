@@ -17,7 +17,7 @@ onMounted(() => {
 </script>
 <template>
   <footer class="flex" v-if="info!=null">
-    <div class="address">
+    <div class="address flex-center">
         <p><strong>{{ info.title_local }}</strong></p>
         <p>Direcci&oacute;n: <strong>{{ info.address }}</strong></p>
         <p>Tel&eacute;fono: <strong>{{ info.phone }}</strong></p>
